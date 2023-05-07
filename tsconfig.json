@@ -1,0 +1,12 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "ES2015",
+      "dom"
+    ],
+    "baseUrl": "."
+  }
+}
